@@ -9,6 +9,7 @@ Even though the images for our analysis are cropped but we still need to scale t
 # Background: fine-tuning a model
 When we talk about convolutional neural network we take into considerations of a lot of layers between to input and the output and a typical convolutional neural network looks something like this:
 ![image](https://user-images.githubusercontent.com/55652596/116507829-b1d99e80-a8dd-11eb-8079-03418c1f38e3.png)
+
 We have a sequence of convolutional layers followed by pooling layers. These layers are feature extractors that “learn” key features of our input images.
 Then, we have one or more fully connected layers followed by a fully connected layer with a softmax activation function. This part of the network is for classification.
 The key idea behind transfer learning is that the feature extractor part of the network can be re-used across different tasks and different domains.
