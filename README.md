@@ -27,3 +27,7 @@ Note that we are not creating a new model. We’re just going to continue traini
 
 # Conclusion
 In practice, for most machine learning problems, we wouldn’t design or train a convolutional neural network from scratch — we would use an existing model that suits our needs (does well on ImageNet, size is right) and fine-tune it on our own data.Application of transfer learning is endless and it has seen an upsurge in its application since the advent of powerful GPU’s and computational hardware.
+
+My Kaggle notebook:https://www.kaggle.com/lykin22/nerual-network-image-data
+
+If you liked my analysis, pls upvote my notebook!
